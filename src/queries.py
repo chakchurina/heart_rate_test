@@ -44,7 +44,7 @@ def query_users(
     min_age: int, min_avg_heart_rate: float, date_from: datetime, date_to: datetime
 ) -> Select:
     """
-    Query users with a minimum age, specific gender, and average heart 
+    Query users with a minimum age and average heart
     rate above a threshold within a time range.
 
     Args:
